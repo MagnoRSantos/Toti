@@ -1,0 +1,39 @@
+
+O que é banco de dados Northwind?
+O banco de dados Northwind foi lançado pela primeira vez no Microsoft Access Database como um banco de dados de amostra com dados já preenchidos. 
+O banco de dados contém dados de vendas de uma empresa fictícia chamada Northwind Traders, que importa e exporta alimentos especiais de todo o mundo. 
+Você pode experimentar o Sqlite no banco de dados Northwind enquanto aprende e desenvolve ideias.
+
+
+
+Informações importantes sobre as tabelas:
+
+Tabela OrderDetails	(Detalhes do pedido)
+Tabela Orders		(Pedidos)
+Tabela Products		(Produtos)
+Tabela Categories	(Categorias)
+Tabela Customers	(Clientes)
+Tabela Employees	(Funcionários)
+Tabela Shippers		(Transportadoras)
+Tabela Suppliers	(Fornecedores)
+
+
+Categories 	 - lista de categorias de produtos.
+Suppliers 	 – que fornecem produtos para a Northwind Traders.
+Products 	 - os produtos que a Northwind Traders compra e vende.
+Clientes 	 - compradores de produtos Northwind.
+Employees 	 - pessoas que trabalham para a Northwind Traders.
+Shippers 	 – empresas que enviam produtos da Northwind Traders para seus clientes.
+Orders 		 - informações sobre cada pedido, como o cliente que fez o pedido, o funcionário que tratou do pedido, o pedido e a data de envio, qual remetente fez o envio, etc.
+OrderDetails - detalhes da transação de cada pedido, como produtos, preço unitário e quantidade, desconto aplicado.
+
+
+
+
+Atenção a fonte abaixo usa como referência o mysql porém a idéia pode ser aplicado no Sqlite sem problemas.
+Fonte: https://www.geeksengine.com/database/sample/what-is-northwind-database.php
+
+
+
+Diagrama
+https://en.m.wikiversity.org/wiki/Database_Examples/Northwind
